@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Website (MERN Stack)
 
-### 🚀 Live Demo: [Your Website Link Here](#)  
+### 🚀 Live Demo: [To be hosted.....](#)  
 
 This is a **full-stack** eCommerce web application built using **MongoDB, Express.js, React, and Node.js (MERN stack)**. It includes **user authentication, product management, cart functionality, and payment integration**.
 
