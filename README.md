@@ -12,7 +12,7 @@ This is a **full-stack** eCommerce web application built using **MongoDB, Expres
 ✅ Admin Dashboard (Manage Products, Orders, Users)  
 ✅ Product Search, Filter, and Categories  
 ✅ Shopping Cart and Checkout  
-✅ Secure Payments (e.g., Stripe or Razorpay)  
+✅ Secure Payments  
 ✅ Responsive UI with React & Tailwind CSS  
 ✅ RESTful API with Express & MongoDB  
 
@@ -24,7 +24,7 @@ This is a **full-stack** eCommerce web application built using **MongoDB, Expres
 **Backend:** Node.js, Express.js, MongoDB  
 **Authentication:** JSON Web Tokens (JWT)  
 **Database:** MongoDB with Mongoose  
-**Payment Gateway:** Stripe / Razorpay  
+**Payment Gateway:** PayPal (But still in development....)  
 
 ---
 
@@ -35,3 +35,6 @@ This is a **full-stack** eCommerce web application built using **MongoDB, Expres
 ```sh
 git clone https://github.com/your-username/ecommerce-mern.git
 cd ecommerce-mern
+
+
+NOTE : Some of the part of projects are still in development phase, So remember some tech might look useless, but it's not
