@@ -1,0 +1,7 @@
+<svg width="150" height="60" viewBox="0 0 150 60" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="150" height="60" rx="10" fill="#fff" stroke="#000" stroke-width="3"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="28" fill="#000" font-weight="bold" letter-spacing="4">
+    WWT
+  </text>
+</svg>

@@ -1,160 +1,36 @@
-*{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-}
 #navigation-container {
-    width: 4%;
-    transition: width 0.3s ease-in-out;
-    overflow: hidden; /* Hide overflowing content during transition */
-        /* Tailwind */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1rem; /* Equivalent to p-4 */
-    color: white; /* text-white */
-    background-color: black; /* bg-black */
-    width: 4%; /* w-[4%] */
-    height: 100vh; /* h-[100vh] */
-    position: fixed; /* fixed */
-    transition: width 0.3s ease;
-  }
-  
-  #navigation-container:hover {
-    width: 15%;
-  }
-  
-  /* Initially hide nav-item-name */
-  .nav-item-name {
-    display: none;
-    transition: opacity 0.2s ease-in-out; /* Add opacity transition */
-  }
-  
-  #navigation-container:hover .nav-item-name {
-    display: block;
-    opacity: 1;
-  }
-  
-  .search-input {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.2s ease-in-out; /* Add opacity transition */
-  }
-  
-  #navigation-container:hover .search-input {
-    display: block;
-    opacity: 1;
-  }
-  
-  #navigation-container:hover .search-icon {
-    display: none;
-    transition: opacity 0.2s ease-in-out; /* Add opacity transition */
-  }
+  width: 4%;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden; /* Hide overflowing content during transition */
+}
 
+#navigation-container:hover {
+  width: 15%;
+}
 
-  /* Tailwind */
+/* Initially hide nav-item-name */
+.nav-item-name {
+  display: none;
+  transition: opacity 0.2s ease-in-out; /* Add opacity transition */
+}
 
-  .flex-container {
-    display: flex; /* flex */
-    align-items: center; /* items-center */
-    transition: transform 0.3s ease; /* transition-transform */
-    text-decoration: none;
-  }
-  
-  /* Hover Effect */
-  .flex-container:hover {
-    transform: translateX(8px); /* hover:translate-x-2 (2 * 4px = 8px) */
-  }
+#navigation-container:hover .nav-item-name {
+  display: block;
+  opacity: 1;
+}
 
-  .mainContainer {
-    display: flex; /* flex */
-    flex-direction: column; /* flex-col */
-    justify-content: center; /* justify-center */
-  }
-  
-  .mainContainer > * {
-    margin-top: 1rem; /* space-y-4 (4 * 4px = 16px) */
-  }
-  
-  /* Remove margin from the first child */
-  .mainContainer > *:first-child {
-    margin-top: 0;
-  }
-  .icon {
-    margin-right: 0.5rem; /* mr-2 (2 * 4px = 8px) */
-    margin-top: 3rem; /* mt-[3rem] */
-    color: white;
-  }
-  .nav-item-name {
-    /* display: hidden; hidden */
-    margin-top: 3rem; /* mt-[3rem] */
-    color: white;
-  }
-  .register{
-    margin-bottom: 1.5rem;
-  }
-  .username_button{
-    display: flex;
-    align-items: center;
-    color: #1f2937; /* Equivalent to Tailwind's text-gray-800 */
-    background-color: transparent;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .username_button:focus {
-    outline: none;
-  }
-  .nav_username{
-    margin-bottom: 28px;
-    position: relative;
-  }
-  
-  .username_dropdownbox {
-    position: absolute;
-    right: 0;
-    margin-top: 0.5rem; /* mt-2 -> 8px (0.5rem) */
-    margin-right: 3.5rem; /* mr-14 -> 56px (3.5rem) */
-    color: #4b5563; /* Equivalent to Tailwind's text-gray-600 */
-  }
-  
-  .username_dropdownbox > * {
-    margin-bottom: 0.3rem; /* space-y-2 -> Adds spacing between child elements */
-  }
-  
-  .username_dropdownbox > *:last-child {
-    margin-bottom: 0; /* Remove margin from the last child */
-  }
-  .username_links {
-    outline: none;
-    display: block;
-    padding: 0.4rem 1rem; 
-    background-color: #585b5d;
-    color: #fff;
-  }
-  
-  .username_links:hover {
-    background-color: #393b3d;
-  }
-  .admin_userbox {
-    top: -5rem; /* -20 * 0.25rem = -5rem (or -80px) */
-  }
-  .normal_userbox {
-    top: -16rem; /* -20 * 0.25rem = -5rem (or -80px) */
-  }
-  .logout_link {
-    display: block;
-    width: 100%;
-    padding: 0.5rem 1rem; /* px-4 -> 1rem (16px), py-2 -> 0.5rem (8px) */
-    text-align: left;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    background-color: #585b5d; /* Equivalent to Tailwind's bg-gray-100 */
-  }
-  
-  .logout_link:hover {
-    background-color: #393b3d; /* Equivalent to Tailwind's bg-gray-100 */
-  }
+.search-input {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out; /* Add opacity transition */
+}
+
+#navigation-container:hover .search-input {
+  display: block;
+  opacity: 1;
+}
+
+#navigation-container:hover .search-icon {
+  display: none;
+  transition: opacity 0.2s ease-in-out; /* Add opacity transition */
+}

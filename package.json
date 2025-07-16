@@ -13,17 +13,26 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "apexcharts": "^4.7.0",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^3.0.2",
     "concurrently": "^9.1.2",
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "express-formidable": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.12.0",
-    "nodemon": "^3.1.9"
+    "multer": "^2.0.0",
+    "nodemon": "^3.1.9",
+    "paytmchecksum": "^1.5.1",
+    "react-apexcharts": "^1.7.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.11"
+    "@tailwindcss/vite": "^4.0.11",
+    "tailwind-scrollbar": "^4.0.2",
+    "tailwindcss-textshadow": "^2.1.3"
   }
 }
